@@ -32,7 +32,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js",
+            ]
           },
           "configurations": {
             "production": {
@@ -40,7 +42,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "3mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -92,7 +94,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js",
+            ]
           }
         }
       }

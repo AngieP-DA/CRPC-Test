@@ -1,0 +1,62 @@
+{
+    "jsonrpc": "2.0",
+    "id": 50347,
+    "method": "Crpc.Register",
+    "params": {
+        "uuid": "5db35e97-a379-46e4-ac32-6b16d5ed6d3e",
+        "ver": "1.0",
+        "maxPacketSize": 65535,
+        "type": "symbol/json-rpc",
+        "encoding": "UTF-8",
+        "format": "JSON",
+        "name": "MediaPlayer=1"
+    }
+}
+/***/
+//T0
+{
+    "id": 93857,
+    "params": {
+        "uuid": "1EEC064A-1B27-2679-D10B-60FC97D54EBB",
+        "maxPacketSize": 65535,
+        "type": "cip-direct/json-rpc",
+        "format": "JSON",
+        "ver": "1.0",
+        "name": "MMS Player Main",
+        "encoding": "UTF-8"
+    },
+    "jsonrpc": "2.0",
+    "method": "Crpc.Register"
+}
+
+
+//FROM
+{
+    "jsonrpc": "2.0",
+    "result": {
+        "ver": "2.0",
+        "name": "DM-NAX-8ZSA",
+        "uuid": "0829abc9-974f-4e71-a793-866657c6eaa4",
+        "connectionslist": [
+            {
+                "type": "symbol/json-rpc",
+                "ip": "192.168.33.254",
+                "subnet": "255.255.255.0",
+                "port": 41794,
+                "slot": "5.1.1",
+                "join": 55
+            },
+            {
+                "type": "cip-direct/json-rpc",
+                "ip": "192.168.33.254",
+                "subnet": "255.255.255.0",
+                "port": 50011
+            }
+        ],
+        "maxPacketSize": 1048576,
+        "encoding": "UTF-8",
+        "format": "JSON"
+    },
+    "error": null,
+    "id": 93857
+}

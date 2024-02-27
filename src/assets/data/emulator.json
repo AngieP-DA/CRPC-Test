@@ -1,0 +1,10 @@
+{
+    "cues": [],
+    "onStart": [
+        {
+            "state": "1",
+            "type": "s",
+            "value": "Test"
+        }
+    ]
+}

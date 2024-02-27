@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:archive": "ch5-cli archive -p HTML5_Media_Player -d dist/crpc/browser -o dist",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -18,6 +19,10 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
+    "@crestron/ch5-crcomlib": "^2.8.0",
+    "@crestron/ch5-utilities-cli": "^2.0.0",
+    "crestron-mediaplayer-sdk": "^0.1.0",
+    "eruda": "^3.0.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
